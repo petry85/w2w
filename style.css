@@ -328,15 +328,14 @@
         width: 100%;
         text-align: center;
         justify-content: center;
-        height: 65px;
-        padding-bottom: 0;
-        z-index: 2;
+        align-items: center;
     }
     footer ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
         padding-top: 15px;
+        align-items: center;
     }
     footer ul li {
         display: inline;
@@ -360,11 +359,13 @@
         padding: 5px;
     }
     footer a {
+        display: block;
         text-decoration: none;
         color: white;
         align-items: center;
         justify-content: center;
-        padding: 5px;
+        padding: 0;
+        margin-bottom: -15px;
     }
     footer ul li img {
         animation: wave 3s infinite;
@@ -405,7 +406,7 @@
     #google_maps p {
         color: white;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.2em;
         margin-top: 5px;
     }
     #p_celular {
