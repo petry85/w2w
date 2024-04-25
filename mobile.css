@@ -413,12 +413,6 @@
             text-align: center;
             font-size: .9em;
         }
-        @keyframes wave {
-            to {
-                opacity: .5;
-                transform: scale(1.15, 1.5);
-            }
-        }
         iframe {
             display: block;
             margin-top: 50px;
