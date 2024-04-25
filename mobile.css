@@ -426,6 +426,7 @@
             margin-left: auto;
             margin-right: auto;
             box-shadow: 4px 4px 10px #917476;
+            width: 400px;
         }
         #google_maps p {
             color: white;

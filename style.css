@@ -367,16 +367,15 @@
         padding: 5px;
     }
     footer ul li img {
-        display: inline;
-        flex-direction: row;
         animation: wave 3s infinite;
         border: green;
         border-radius: 50%;
-        width: 25px;
-        justify-content: center;
-        padding-top: -10px;
-        margin-left: auto;
-        margin-right: auto;
+        display: block;
+        position: fixed;
+        bottom: 35px;
+        right: 10px;
+        width: 40px;
+        justify-content: end;
     }
     footer p {
         display: block;
@@ -400,6 +399,7 @@
         margin-left: auto;
         margin-right: auto;
         box-shadow: 4px 4px 10px #917476;
+        width: 650px;
     }
     #google_maps p {
         color: white;
