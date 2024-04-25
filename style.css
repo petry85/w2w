@@ -400,11 +400,15 @@
         margin-right: auto;
         box-shadow: 4px 4px 10px #917476;
         width: 650px;
+        height: 400px;
     }
     #google_maps p {
         color: white;
         text-align: center;
-        font-size: .7em;
+        font-size: 1em;
         margin-top: 5px;
+    }
+    #p_celular {
+        display: none;
     }
 }
