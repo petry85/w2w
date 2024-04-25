@@ -221,4 +221,10 @@
         right: 30px;
         animation: fade 6s ease-in-out;
     }
+    footer p {
+        margin-top: 5px;
+        color: white;
+        text-align: center;
+        font-size: .9em;
+    }
 }
